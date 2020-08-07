@@ -1,0 +1,160 @@
+* {margin: 0; padding: 0;}
+body {
+    font-family: 'Crimson Text', Helvetica, sans-serift;
+}
+
+/* 
+    Cabeçalho
+*/
+header {
+    text-align: center;
+    margin: 30px 0px 25px;
+    font-size: 3vh;
+    text-shadow: 12px 8px 3px #606060;
+}
+::selection {
+    background-color: #505005;
+    color: #ffffff;
+}
+/* 
+    Conteúdo principal
+*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.4vh;
+}
+main section p {
+    margin-bottom: 15px;
+}
+main section h3 {
+    margin-bottom: 15px;
+}
+#nome-pessoa1 {
+    /* border: 8px solid #505005; */
+    position: relative;
+    right: 200px;
+    top: 44px;
+}
+#nome-pessoa2 {
+    /* border: 8px solid #505005; */
+    position: relative;
+    right: 200px;
+    top: 47px;
+}
+input[type=text] {
+    border-radius: 5px;
+    border: 1px solid #606060;
+    padding: 3px;
+    outline: none;
+    margin-top: 12px;
+}
+input[type=text]:focus {
+    background-color: #505005;
+    color: #ffffff;
+}
+/* 
+    Primeira pessoa
+*/
+#button-pessoa1 {
+    position: relative;
+    left: 194px;
+    bottom: 92px;
+    padding: 4px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px dashed #606060;
+    background-color: #ffffff;
+    color: #606060;
+    font-size: 2vh;
+    font-family: 'Crimson Text', Helvetica, sans-serift;
+}
+#button-pessoa1:hover {
+    background-color: #606060;
+    color: #ffffff;
+}
+/* 
+    Segunda pessoa
+*/
+#button-pessoa2 {
+    position: relative;
+    left: 194px;
+    bottom: 82px;
+    padding: 4px;
+    border-radius: 7px;
+    outline: none;
+    border: 1px dashed #606060;
+    background-color: #ffffff;
+    color: #606060;
+    font-size: 2vh;
+    font-family: 'Crimson Text', Helvetica, sans-serift;   
+}
+#button-pessoa2:hover {
+    background-color: #606060;
+    color: #ffffff;
+}
+/* 
+    Rodapé
+*/
+#direitos, #direitios-title {
+    margin-top: 15px;
+    position: relative;
+    right: 78%;
+}
+#criador, #criador-title {
+    margin-top: 15px;
+    position: relative;
+    right: 58.9%;
+}
+#redes-title{
+    margin-bottom: 10px;
+    position: relative;
+    right: 58.9%;
+    top: 12px;
+}
+.border-bottom {
+    border-bottom: 1.5px solid #ffffff;
+}
+.redes {
+    display: flex;
+    flex-direction: row;
+}
+.fab {
+    margin-right: 15px;
+    margin-top: 19px;
+    color: #ffffff;
+    font-size: 2vh;
+}
+.fa-instagram {
+    position: relative;
+    right: 172px;
+}
+.fa-facebook {
+    position: relative;
+    right: 152px;
+}
+.fa-github {
+    position: relative;
+    right: 132px;
+}
+.fa-linkedin-in {
+    position: relative;
+    right: 112px;
+}
+footer section {
+    position: relative;
+    left: 102px;
+}
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #ffffff;
+    width: 100%;
+    background-color: #606060;
+    position: relative;
+    top: 25px;
+    padding: 90px 0px 266px;
+    font-size: 2.3vh;
+}

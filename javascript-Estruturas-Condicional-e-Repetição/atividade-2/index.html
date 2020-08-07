@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+    <link rel="shortcut icon" href="img/logo-js.png">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+    <!-- Importa a fontawesome  -->
+    <script src="https://kit.fontawesome.com/b55b406ab0.js" crossorigin="anonymous"></script>
+    <title>Javascript - Estruturas Condicional e Repetição</title>
+</head>
+<!--  onload="load()" -->
+<!-- Antes do body carregar, iremos chamar a função load() -->
+<body onload="load()">
+    <header>
+        <h1>Javascript - Estruturas Condicional e Repetição</h1>
+    </header>
+    <main>
+        <section>
+            <h3 id="title"></h3>
+            <p id="nome-pessoa1">
+
+            </p>
+            <p>
+                <input type="text" id="mensagemPessoa1" placeholder="Digite uma mensagem">
+            </p>
+            <p id="nome-pessoa2">
+
+            </p>
+            <p>
+                <input type="text" id="mensagemPessoa2" placeholder="Digite uma mensagem">
+            </p>
+            <p>
+                <button id="button-pessoa1" onclick="iniciaConversaPessoa1()">
+                    Enviar
+                </button>
+            </p>
+            <p>
+                <button id="button-pessoa2" onclick="iniciaConversaPessoa2()">
+                    Enviar
+                </button>
+            </p>
+        </section>
+        <!-- Para a resposta da pessoa A. -->
+        <section id="res-pessoaA">
+            
+        </section>
+        <!-- Para a resposta da pessoa B. -->
+        <section id="res-pessoaB">
+            
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h3 id="direitios-title" class="border-bottom">Direitos</h3>
+            <p id="direitos">
+                &copy; Todos os direitos reservados a Start Latam e a Accenture 
+            </p>
+        </section>
+        <section>
+            <h3 id="criador-title" class="border-bottom">Criador</h3>
+            <p id="criador">
+                &copy; Cirado por Lucas Miller no dia <time datetime="2020-08-06">06/08/2020</time>
+            </p>
+        </section>
+        <section>
+            <h3 id="redes-title" class="border-bottom">Redes sociais</h3>
+            <section class="redes">
+                <a target="_blank" href="https://www.instagram.com/lucasmillercruz/"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://www.facebook.com/lucas.miller.125323"><i class="fab fa-facebook"></i></a>
+                <a target="_blank" href="https://github.com/LucasMiller98"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/lucas-miller-076564175/"><i class="fab fa-linkedin-in"></i></a>
+            </section>
+        </section>
+    </footer>
+</body>
+</html>
